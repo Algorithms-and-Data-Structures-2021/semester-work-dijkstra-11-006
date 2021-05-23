@@ -1,7 +1,14 @@
 #include <iostream>
 
+#include "Dijkstra+BinaryHeap.hpp"
+
+using namespace itis;
 using namespace std;
 
-int main() {
-  cout<< "Hello Stranger" << endl;
+int main(int argc, char *argv[]) {
+
+  for (int index = 0; index < argc; index++) {
+    cout << index << ": " << argv[index] << endl;
+  }
+  return 0;
 }

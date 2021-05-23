@@ -15,164 +15,6 @@ static constexpr auto kDatasetPath = string_view{PROJECT_DATASET_DIR};
 static constexpr auto kProjectPath = string_view{PROJECT_SOURCE_DIR};
 
 
-
-//
-//
-//long long int *check_assign(string path, int count){
-//  long long int *time_list = new long long int [10];
-//  for (int i = 0; i < 10; i++) {
-//    string line = "1";
-//    auto input_file = ifstream(path);
-//    int tmp = 0;
-//    int num;
-//    int *array = new int[count];
-//    if (input_file) {
-//      getline(input_file, line);
-//      while (line != "") {
-//        while(std::getline(line, num, ','))
-//        {
-//          values.push_back(stoi(num));
-//        }
-//        getline(input_file, line);
-//        if (line == "") {
-//          break;
-//        }
-//      }
-//    }
-//    SegmentTree sTree = SegmentTree(count, array);
-//    int value = 2;
-//    int left = rand() % sTree.size();
-//    int right = rand() % sTree.size();
-//    if (left > right){
-//      int m = left;
-//      left = right;
-//      right = m;
-//    }
-//    const auto time_point_before = chrono::steady_clock::now();
-//    sTree.assign(1, sTree.size() - 1, value, 1,  left, right);
-//    const auto time_point_after = chrono::steady_clock::now();
-//
-//    input_file.close();
-//    const auto time_diff = time_point_after - time_point_before;
-//    const long long time_elapsed_ns = chrono::duration_cast<chrono::nanoseconds>(time_diff).count();
-//    time_list[i] = time_elapsed_ns/1000;
-//  }
-//  return time_list;
-//}
-//
-//
-//long long int *check_max(string path, int count){
-//  long long int *time_list = new long long int [10];
-//  for (int i = 0; i < 10; i++) {
-//    string line = "1";
-//    auto input_file = ifstream(path);
-//    int tmp = 0;
-//    int *array = new int[count];
-//    if (input_file) {
-//      getline(input_file, line);
-//      while (line != "") {
-//        array[tmp] = stoi(line);
-//        getline(input_file, line);
-//        if (line == "") {
-//          break;
-//        }}}
-//    SegmentTree sTree = SegmentTree(count, array);
-//    const auto time_point_before = chrono::steady_clock::now();
-//    sTree.get_max(1, sTree.size() - 1, 1, 1, sTree.size() - 1);
-//    const auto time_point_after = chrono::steady_clock::now();
-//    input_file.close();
-//    const auto time_diff = time_point_after - time_point_before;
-//    const long long time_elapsed_ns = chrono::duration_cast<chrono::nanoseconds>(time_diff).count();
-//    time_list[i] = time_elapsed_ns/1000;
-//  }
-//  return time_list;
-//}
-//
-//
-//long long int *check_min(string path, int count){
-//  long long int *time_list = new long long int [10];
-//  for (int i = 0; i < 10; i++) {
-//    string line = "1";
-//    auto input_file = ifstream(path);
-//    int tmp = 0;
-//    int *array = new int[count];
-//    if (input_file) {
-//      getline(input_file, line);
-//      while (line != "") {
-//        array[tmp] = stoi(line);
-//        getline(input_file, line);
-//        if (line == "") {
-//          break;
-//        }}}
-//    SegmentTree sTree = SegmentTree(count, array);
-//    const auto time_point_before = chrono::steady_clock::now();
-//    sTree.get_min(1, sTree.size() - 1, 1, 1, sTree.size() - 1);
-//    const auto time_point_after = chrono::steady_clock::now();
-//    input_file.close();
-//    const auto time_diff = time_point_after - time_point_before;
-//    const long long time_elapsed_ns = chrono::duration_cast<chrono::nanoseconds>(time_diff).count();
-//    time_list[i] = time_elapsed_ns/1000;
-//  }
-//  return time_list;
-//}
-//
-//
-//long long int *check_create_tree(string path, int count){
-//  long long int *time_list = new long long int [10];
-//  for (int i = 0; i < 10; i++) {
-//    string line = "1";
-//    auto input_file = ifstream(path);
-//    int tmp = 0;
-//    int *array = new int[count];
-//    if (input_file) {
-//      getline(input_file, line);
-//      while (line != "") {
-//        array[tmp] = stoi(line);
-//        getline(input_file, line);
-//        if (line == "") {
-//          break;
-//        }}}
-//    const auto time_point_before = chrono::steady_clock::now();
-//    SegmentTree sTree = SegmentTree(count, array);
-//    const auto time_point_after = chrono::steady_clock::now();
-//    input_file.close();
-//    const auto time_diff = time_point_after - time_point_before;
-//    const long long time_elapsed_ns = chrono::duration_cast<chrono::nanoseconds>(time_diff).count();
-//    time_list[i] = time_elapsed_ns/1000;
-//  }
-//  return time_list;
-//}
-//
-//long long int *check_update(string path, int count){
-//  long long int *time_list = new long long int [10];
-//  for (int i = 0; i < 10; i++) {
-//    string line = "1";
-//    auto input_file = ifstream(path);
-//    int tmp = 0;
-//    int *array = new int[count];
-//    if (input_file) {
-//      getline(input_file, line);
-//      while (line != "") {
-//        array[tmp] = stoi(line);
-//        getline(input_file, line);
-//        if (line == "") {
-//          break;
-//        }}}
-//    SegmentTree sTree = SegmentTree(count, array);
-//    const auto time_point_before = chrono::steady_clock::now();
-//    for (int tmp1 = 0; tmp1 < count; tmp1++) {
-//      sTree.update(1, 0, sTree.size() - 1, rand()%count, rand()%2147483647);
-//    }
-//    const auto time_point_after = chrono::steady_clock::now();
-//    input_file.close();
-//    const auto time_diff = time_point_after - time_point_before;
-//    const long long time_elapsed_ns = chrono::duration_cast<chrono::nanoseconds>(time_diff).count();
-//    time_list[i] = time_elapsed_ns/1000;
-//  }
-//  return time_list;
-//}
-
-
 long long int *check_algoritm(const string path){
   long long int *time_list = new long long int [10];
   for (int i = 0; i < 10; i++) {
@@ -197,7 +39,6 @@ long long int *check_algoritm(const string path){
         }
       }
     }
-    // static_cast предложен idea, наконец перестало светиться как новогодняя елка
     int some_random_vert = 1;
 
     // начало замерения
@@ -210,13 +51,6 @@ long long int *check_algoritm(const string path){
     const long long time_elapsed_ns = chrono::duration_cast<chrono::nanoseconds>(time_diff).count();
     time_list[i] = time_elapsed_ns/1000;
 
-    if (i == 0) {
-      for (int l : len) {
-        cout << l << ",";
-      }
-      cout << endl;
-    }
-
     matrix.clear();
     input_file.close();
   }
@@ -225,7 +59,6 @@ long long int *check_algoritm(const string path){
 
 
 int main() {
-
   const auto path_inputfile = string(kProjectPath) + "/dataset/data/main_statistic.csv";
   const auto py_path = "python " + string(kProjectPath) + "/dataset/generate_dataset_csv.py";
   const string delimeter = "/";
@@ -257,9 +90,6 @@ int main() {
                          + "/database/insert/" + dir + "/Random_"
                          + to_string(amount[j]) + "x" + to_string(amount[j]) + ".csv";
       long long int* time_list = check_algoritm(data_path);
-      cout << endl << endl;
-      cout << "dir: " << dir << ", amount - " << to_string(amount[j]) + "x" + to_string(amount[j]);
-      cout << endl;
 
       for (int i = 0; i < 10; i++){
         file << "Dijkstra"
@@ -270,6 +100,5 @@ int main() {
       }
     }
   }
-
   return 0;
 }

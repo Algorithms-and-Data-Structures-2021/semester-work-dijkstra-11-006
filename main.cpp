@@ -1,10 +1,12 @@
 #include <iostream>
 
-#include "data_structure.hpp"
+#include "Dijkstra+BinaryHeap.hpp"
 
+using namespace itis;
 using namespace std;
 
 int main(int argc, char *argv[]) {
+
   for (int index = 0; index < argc; index++) {
     cout << index << ": " << argv[index] << endl;
   }

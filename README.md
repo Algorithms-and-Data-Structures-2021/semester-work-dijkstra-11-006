@@ -180,12 +180,13 @@ _Опишите, как запустить контрольные тесты, ч
 
 ## Источники
 
+_Список использованных при реализации алгоритма источников._
 
->1). Видео Алгоритм Дейкстры за O(M log N)
->2). Статья Википедии
->3). https://e-maxx.ru/algo/dijkstra
->4). Жадные алгоритмы. Алгоритм Дейкстры.
->5). Applications of Dijkstra’s shortest path algorithm
->6). https://habr.com/ru/post/111361/
->7). https://stackoverflow.com/how-can-i-use-binary-heap-in-the-dijkstra-algorithm
-    и прочее.
+1) [Видео Алгоритм Дейкстры за O(M log N)](https://www.youtube.com/watch?v=8_oVqDh52CU)
+2) [Статья Википедии](https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%94%D0%B5%D0%B9%D0%BA%D1%81%D1%82%D1%80%D1%8B)
+3) https://e-maxx.ru/algo/dijkstra
+4) [Жадные алгоритмы. Алгоритм Дейкстры](https://webdevblog.ru/zhadnye-algoritmy-chast-1-algoritm-dejkstry/)
+5) [Applications of Dijkstra’s shortest path algorithm](https://www.geeksforgeeks.org/applications-of-dijkstras-shortest-path-algorithm/)
+6) https://habr.com/ru/post/111361/
+7) https://stackoverflow.com/how-can-i-use-binary-heap-in-the-dijkstra-algorithm
+8) и прочее

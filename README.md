@@ -135,8 +135,7 @@ dataset/data/database
 
 # Пример запуска в IDE
 
-<img width="308" alt="Снимок экрана 2021-05-24 225655" src="https://user-images.githubusercontent.com/79420912/119401819-bc246800-bce4-11eb-8eca-732d87751425.png">
-<img width="687" alt="Снимок экрана 2021-05-24 230159" src="https://user-images.githubusercontent.com/79420912/119402081-13c2d380-bce5-11eb-812a-a8d6461d858c.png">
+<img width="308" alt="Снимок экрана 2021-05-24 225655" src="https://user-images.githubusercontent.com/79420912/119401819-bc246800-bce4-11eb-8eca-732d87751425.png">  <img width="687" alt="Снимок экрана 2021-05-24 230159" src="https://user-images.githubusercontent.com/79420912/119402081-13c2d380-bce5-11eb-812a-a8d6461d858c.png">
 
 
 ## Источники

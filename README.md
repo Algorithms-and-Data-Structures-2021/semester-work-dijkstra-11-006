@@ -68,26 +68,10 @@ _Постарайтесь написать инструкцию так, чтоб
 
 #### Сборка проекта
 
-_Опишите процесс сборки проекта._
-
-Склонируйте проект к себе на устройство через [Git for Windows](https://gitforwindows.org/) (либо используйте
-возможности IDE):
+Склонируйте проект к себе на устройство через [Git for Windows](https://gitforwindows.org/):
 
 ```shell
 git clone https://github.com/Algorithms-and-Data-Structures-2021/semester-work-template.git
-```
-
-Для ручной сборки проекта в терминале введите:
-
-```shell
-# переход в папку с проектом
-cd C:\Users\username\asd-projects\semester-work-template
-
-# создание папки для файлов сборки (чтобы не засорять папку с проектом) 
-mkdir -p build && cd build 
-
-# сборка проекта
-cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && cmake --config RelWithDebInfo --build . 
 ```
 
 #### Генерация тестовых данных
@@ -114,10 +98,10 @@ python generate_csv_bench_dataset.py --samples 1000 <output> [args ...]
 [`dataset/data/dataset-example.csv`](dataset/data/dataset-example.csv)):
 
 ```csv
-id, full_name
-0, "Ramil Safin"
-1, "Bulat Abbyasov"
+0,234,123 ... 123
+123,0,234 ... 536
 ...
+834,28,53 ... 0
 ```
 
 **Для удобства запуска контрольных тестов данные организованы в директориях: **
@@ -135,8 +119,8 @@ dataset/data/database
     10/ ...
 ```
 
-По названию директории `/dataset/data/add` можно понять, что здесь хранятся наборы данных для контрольных тестов по
-**добавлению** элементов в структуру данных. Названия файлов `100.csv`. `5000000.csv` и т.д. хранят информацию о размере набора данных (т.е. количество элементов). 
+По названию директории `/dataset/data/database` можно понять, что здесь хранятся наборы данных для контрольных тестов по
+**добавлению** элементов в структуру данных. Названия файлов `Random_5x5.csv`. `Random_2500x2500.csv` и т.д. хранят информацию о размере набора данных (т.е. количество элементов). 
 
 #### Контрольные тесты (benchmarks)
 

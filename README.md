@@ -182,12 +182,12 @@ _Опишите, как запустить контрольные тесты, ч
 
 _Список использованных при реализации структуры данных источников._
 
-_Видео Алгоритм Дейкстры за O(M log N)
-Статья Википедии
-https://e-maxx.ru/algo/dijkstra
-Жадные алгоритмы. Алгоритм Дейкстры.
-Applications of Dijkstra’s shortest path algorithm
-https://habr.com/ru/post/111361/
-https://stackoverflow.com/how-can-i-use-binary-heap-in-the-dijkstra-algorithm
-и прочее.
+1). Видео Алгоритм Дейкстры за O(M log N)
+2). Статья Википедии
+3). https://e-maxx.ru/algo/dijkstra
+4). Жадные алгоритмы. Алгоритм Дейкстры.
+5). Applications of Dijkstra’s shortest path algorithm
+6). https://habr.com/ru/post/111361/
+7). https://stackoverflow.com/how-can-i-use-binary-heap-in-the-dijkstra-algorithm
+    и прочее.
 _

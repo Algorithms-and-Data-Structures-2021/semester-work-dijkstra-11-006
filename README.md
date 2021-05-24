@@ -86,6 +86,8 @@ cd dataset
 python generate_dataset_csv.py 
 ```
 
+Пример данных в файле Random_1000x1000.csv
+
 ```csv
 0,234,123 ... 123
 123,0,234 ... 536

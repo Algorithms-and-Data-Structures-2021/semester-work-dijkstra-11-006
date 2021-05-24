@@ -34,8 +34,8 @@ _Заполните таблицу с указанием вклада каждо
 | Зарипова Эрика     | 30        | Ингеборга Датская           |
 
 **Девиз команды**
-> _Allons enfants de la Patrie, _
-> _ Le jour de gloire est arrivé !_
+> _Allons enfants de la Patrie, 
+>  le jour de gloire est arrivé !_
 
 ## Структура проекта
 

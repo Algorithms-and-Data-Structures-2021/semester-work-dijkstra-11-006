@@ -1,6 +1,6 @@
 # Алгоритм Дейкстры
 
-[![CMake](https://github.com/Algorithms-and-Data-Structures-2021/semester-work-template/actions/workflows/cmake.yml/badge.svg)](https://github.com/Algorithms-and-Data-Structures-2021/semester-work-template/actions/workflows/cmake.yml)
+[![CMake](https://github.com/Algorithms-and-Data-Structures-2021/semester-work-dijkstra-11-006/actions/workflows/cmake.yml/badge.svg)](https://github.com/Algorithms-and-Data-Structures-2021/semester-work-template/actions/workflows/cmake.yml)
 
 
 `Actions > CMake > ... > Create status badge`

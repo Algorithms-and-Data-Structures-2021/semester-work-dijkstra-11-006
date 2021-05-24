@@ -3,7 +3,6 @@
 [![CMake](https://github.com/Algorithms-and-Data-Structures-2021/semester-work-dijkstra-11-006/actions/workflows/cmake.yml/badge.svg)](https://github.com/Algorithms-and-Data-Structures-2021/semester-work-dijkstra-11-006/actions/workflows/cmake.yml)
 
 
-`Actions > CMake > ... > Create status badge`
 
 **В данном семестровом проекте реализуется алгоритм Дейкстры:**
 
@@ -60,10 +59,6 @@ _Заполните таблицу с указанием вклада каждо
 
 ## Сборка и запуск
 
-_Инструкция по сборке проекта, генерации тестовых данных, запуска контрольных тестов и примеров работы._
-
-_Постарайтесь написать инструкцию так, чтобы незнакомый с проектом человек смог самостоятельно всё запустить._
-
 ### Пример (Windows)
 
 #### Сборка проекта
@@ -94,8 +89,6 @@ python generate_csv_bench_dataset.py --samples 1000 <output> [args ...]
 - `--samples` - количество генерируемых элементов;
 - `<output>` - выходной файл и т.д.
 
-Тестовые данные представлены в CSV формате (см.
-[`dataset/data/dataset-example.csv`](dataset/data/dataset-example.csv)):
 
 ```csv
 0,234,123 ... 123
@@ -124,8 +117,6 @@ dataset/data/database
 
 #### Контрольные тесты (benchmarks)
 
-_Опишите, как запустить контрольные тесты, что они из себя представляют, какие метрики замеряют (время работы,
-потребление памяти и пр.)._
 
 Для запуска контрольных тестов необходимо предварительно сгенерировать или скачать готовый набор тестовых данных.
 

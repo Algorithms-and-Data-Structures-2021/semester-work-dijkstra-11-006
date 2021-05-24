@@ -83,12 +83,8 @@ git clone https://github.com/Algorithms-and-Data-Structures-2021/semester-work-d
 cd dataset
 
 # запуск Python-скрипта
-python generate_csv_bench_dataset.py --samples 1000 <output> [args ...]
+python generate_dataset_csv.py 
 ```
-
-- `--samples` - количество генерируемых элементов;
-- `<output>` - выходной файл и т.д.
-
 
 ```csv
 0,234,123 ... 123

@@ -189,4 +189,4 @@ _Список использованных при реализации алго�
 5) [Applications of Dijkstra’s shortest path algorithm](https://www.geeksforgeeks.org/applications-of-dijkstras-shortest-path-algorithm/)
 6) https://habr.com/ru/post/111361/
 7) https://stackoverflow.com/how-can-i-use-binary-heap-in-the-dijkstra-algorithm
-8) и прочее
+   и прочее
